@@ -44,7 +44,7 @@ Regularidad:
 |Listado<br>+<br>detalle| 1. Listado de alquileres filtrado por fecha <br> 2. Listado de vehiculos disponibles filtrado por rango de fechas solicitado para un alquiler <br> 3. Listado de clientes|
 |CUU/Epic|1. Reservar un vehiculo <br>2. Realizar el check-in de un alquiler <br>3. Realizar el check-out de un alquiler|
 
-Adicionales para Aprobación
+Adicionales para Aprobación:
 |Req|Detalle|
 |:-|:-|
 |CRUD |Todos los del MD|

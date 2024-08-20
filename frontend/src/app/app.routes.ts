@@ -12,7 +12,7 @@ import { SucursalesComponent } from './suc-folder/suc/suc.component.js';
 import { SucursalFormComponent } from './suc-folder/suc-form/suc-form.component.js';
 import { ModelosComponent } from './mod-folder/mod/mod.component.js';
 import { ModeloFormComponent } from './mod-folder/mod-form/mod-form.component.js';
-import { VehicleListComponent } from './vehicle-list/vehicle-list.component.js';
+import { VehicleListComponent } from './veh-folder/veh-list/veh-list.component.js';
 
 export const routes: Routes = [
   { path: 'home', component: HomePageComponent },

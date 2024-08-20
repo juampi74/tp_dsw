@@ -22,9 +22,7 @@ Al hacerlo, se creará una carpeta 'frontend/node_modules' y un archivo 'fronten
 
 ### Compilación
 
-1. Desde la carpeta 'frontend', abrir una consola.
-
-2. Ejecutar el siguiente comando:
+1. Desde la carpeta 'frontend', ejecutar el siguiente comando:
 
 ```bash
    npm run build

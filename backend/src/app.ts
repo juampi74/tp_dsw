@@ -31,14 +31,12 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   posible realizar solicitudes desde cualquier origen.
   */
 
-  // <<Descomentar si se trabaja en un entorno local => localhost>>
-
-  // res.header('Access-Control-Allow-Origin', '*');
-  // res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-  // res.header(
-  //   'Access-Control-Allow-Headers',
-  //   'Content-Type, Accept, Accept-Language, Accept-Encoding'
-  // );
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Content-Type, Accept, Accept-Language, Accept-Encoding'
+  );
   RequestContext.create(orm.em, next);
 });
 // antes de las rutas y middlewares de negocio

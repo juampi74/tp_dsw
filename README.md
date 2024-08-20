@@ -1,5 +1,15 @@
 # TP-3k02-Berli-Gilardoni-Godoy-Jaca-Marquez-App
 
+# Utilización de la aplicación
+
+## Si se quiere trabajar directamente con la aplicación alojada en la nube:
+
+1. Dirigirse a https://alquiler-vehiculos-bggjm.netlify.app/.
+
+## Si se quiere trabajar con la aplicación de forma local:
+
+1. Seguir los pasos que se indican en el README.md del backend.
+
 # Propuesta TP DSW
 
 ## Grupo

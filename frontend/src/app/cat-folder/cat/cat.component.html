@@ -1,0 +1,12 @@
+<div class="lista text-white">
+  <div class="titulo d-flex justify-content-between pt-3 me-5">
+    <h2 class="nuestras-categorias">Nuestras categorias</h2>
+    <button class="btn btn-primary" (click)="newCategoria()">+ Nuevo</button>
+  </div>
+  <section class="categoria-list mt-3 mx-5">
+    <app-cat-table
+      [categorias]="categorias"
+      (categoriaDeleted)="onCategoriaDeleted($event)"
+    ></app-cat-table>
+  </section>
+</div>

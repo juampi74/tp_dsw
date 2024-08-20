@@ -1,0 +1,38 @@
+/* Estilos para el contenedor del formulario */
+.form-style {
+  background-color: #000; /* Un color de fondo oscuro (gris oscuro) */
+  color: #ffffff; /* Texto blanco para el contraste */
+  padding: 20px; /* Espaciado interno del formulario */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #6c757d; /* Borde gris oscuro para el contenedor */
+}
+
+/* Estilos para el campo de entrada dentro del contenedor */
+.form-style input {
+  background-color: #212529; /* Fondo más oscuro para el campo de entrada */
+  color: #ffffff; /* Texto blanco en el campo de entrada */
+  border: 1px solid #6c757d; /* Borde gris oscuro para el campo de entrada */
+  border-radius: 6px; /* Bordes ligeramente redondeados para el campo de entrada */
+  padding: 10px; /* Espaciado interno del campo de entrada */
+}
+
+.form-style input::placeholder {
+  color: #ffffff; /* Color del texto del placeholder */
+}
+
+/* Controla el overflow de las tablas*/
+.div-tablas {
+  overflow: auto;
+  margin-bottom: 2vh;
+}
+
+.unselectable {
+  -moz-user-select: none; /* hace que no se pueda seleccionar el texto en Firefox */
+  -webkit-user-select: none; /* hace que no se pueda seleccionar el texto en Chrome, Safari y Opera */
+  -ms-user-select: none; /* hace que no se pueda seleccionar el texto en Internet Explorer/Edge */
+  user-select: none; /* hace que no se pueda seleccionar el texto en navegadores compatibles */
+}
+
+.modal-header {
+  justify-content: center;
+}

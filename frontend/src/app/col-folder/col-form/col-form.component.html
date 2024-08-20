@@ -1,0 +1,43 @@
+<div class="border border-1 border-white rounded-pill unselectable">
+  <!-- Contenedor del título y el botón "Volver" -->
+  <div class="modal-header d-flex bg-dark text-white">
+    <h2 class="modal-title">{{ title }}</h2>
+  </div>
+  <div class="modal-body fw-medium bg-dark modal-text">
+    <!-- Sección que contiene el formulario -->
+    <section class="form">
+      <form
+        id="colorForm"
+        [formGroup]="colorForm"
+        class="border border-dark border-3 rounded mt-2 form-style"
+      >
+        <!-- Campo de entrada para el nombre -->
+        <input
+          id="nombre"
+          type="text"
+          formControlName="nombre"
+          placeholder="Nombre"
+        />
+        <hr />
+
+      </form>
+    </section>
+    <div class="modal-footer bg-dark modal-text">
+      <button
+        type="button"
+        class="btn btn-secondary border border-1 border-white"
+        (click)="activeModal.dismiss()"
+      >
+        Cancelar
+      </button>
+      <button
+        type="submit"
+        class="btn btn-primary border border-1 border-white"
+        (click)="onSubmit()"
+        [disabled]="!colorForm.valid"
+      >
+        Registrar
+      </button>
+    </div>
+  </div>
+</div>

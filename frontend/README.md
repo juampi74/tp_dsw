@@ -8,7 +8,7 @@
 
 ## Si se trabajará con el frontend ejecutado de forma local:
 
-## Instalación de dependencias
+### Instalación de dependencias
 
 1. Dentro de la carpeta 'frontend', ejecutar el siguiente comando en consola:
 
@@ -18,9 +18,9 @@
 
 Al hacerlo, se creará una carpeta 'frontend/node_modules' y un archivo 'frontend/package-lock.json'.
 
-## Compilación y ejecución de la app
+### Compilación y ejecución de la app
 
-### Compilación
+#### Compilación
 
 1. Desde la carpeta 'frontend', ejecutar el siguiente comando:
 
@@ -30,9 +30,9 @@ Al hacerlo, se creará una carpeta 'frontend/node_modules' y un archivo 'fronten
 
 Al hacerlo, se crearán las carpetas 'frontend/.angular/...' y 'backend/dist'.
 
-### Ejecución
+#### Ejecución
 
-#### Si se trabajará con el backend alojado en la nube:
+##### Si se trabajará con el backend alojado en la nube:
 
 1. Descomentar en 'frontend/src/environments/environment.ts' la variable apiUrl que hace referencia al servidor alojado en la nube, y comentar, si no estuviese así, aquella que se refiere al servidor local.
 
@@ -44,7 +44,7 @@ Al hacerlo, se crearán las carpetas 'frontend/.angular/...' y 'backend/dist'.
 
 Al hacerlo, se levantará el servidor local 4200 (propio de Angular), y se podrá utilizar la aplicación en 'http://localhost:4200/', obteniendo y guardando la información en la base de datos alojada en la nube.
 
-#### Si se trabajará con el backend ejecutado de forma local:
+##### Si se trabajará con el backend ejecutado de forma local:
 
 1. Tener el backend en ejecución de forma local para obtener y guardar la información deseada (Ver '../backend/README.md).
 

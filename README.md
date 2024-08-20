@@ -1,20 +1,20 @@
 # TP-3k02-Berli-Gilardoni-Godoy-Jaca-Marquez-App
 
-# Utilización de la aplicación
+## Utilización de la aplicación
 
-## Si se quiere trabajar directamente con la aplicación alojada en la nube:
+### Si se quiere trabajar directamente con la aplicación alojada en la nube:
 
 1. Dirigirse a https://alquiler-vehiculos-bggjm.netlify.app/.
 
-## Si se quiere trabajar con la aplicación de forma local:
+### Si se quiere trabajar con la aplicación de forma local:
 
 1. Seguir los pasos que se indican en el README.md del backend.
 
-# Propuesta TP DSW
+## Propuesta TP DSW
 
-## Grupo
+### Grupo
 
-### Integrantes
+#### Integrantes
 
 - 50310 - Berli, Nahuel
 - 51189 - Gilardoni, Lucio
@@ -22,23 +22,23 @@
 - 50311 - Jaca, Juan Pablo
 - 51419 - Márquez, Matías
 
-### Repositorio
+#### Repositorio
 
 - [frontend|backend app](https://github.com/DSW-3k02-GGJM/TP-3k02-Berli-Gilardoni-Godoy-Jaca-Marquez-App)
 
-## Tema
+### Tema
 
-### Descripción
+#### Descripción
 
 La aplicación a desarrollar pertenece a una empresa que se dedica a el alquiler de vehiculos. La empresa en cuestión es propietaria de una serie de vehiculos con distintas características que pone a disposición de clientes externos.
 
-### Modelo
+#### Modelo
 
 ![Desarrollo de Software](assets/tp-dsw.png)
 
-## Alcance Funcional
+### Alcance Funcional
 
-### Alcance Mínimo
+#### Alcance Mínimo
 
 Regularidad:
 |Req|Detalle|

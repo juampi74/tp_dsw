@@ -22,10 +22,6 @@
 - 50311 - Jaca, Juan Pablo
 - 51419 - Márquez, Matías
 
-#### Repositorio
-
-- [frontend|backend app](https://github.com/DSW-3k02-GGJM/TP-3k02-Berli-Gilardoni-Godoy-Jaca-Marquez-App)
-
 ### Tema
 
 #### Descripción
